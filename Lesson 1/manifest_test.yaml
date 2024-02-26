@@ -1,0 +1,9 @@
+Descriptor:
+  Name: LOLbin
+  DisplayName: LOLbin Certutil Plugin
+  Description: The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques.
+
+SkillGroups:
+  - Format: API
+    Settings:
+      OpenApiSpecUrl: <>
