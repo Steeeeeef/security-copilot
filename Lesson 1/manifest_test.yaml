@@ -6,4 +6,4 @@ Descriptor:
 SkillGroups:
   - Format: API
     Settings:
-      OpenApiSpecUrl: <>
+      OpenApiSpecUrl: https://raw.githubusercontent.com/Steeeeeef/security-copilot/main/Lesson%201/openapi_test.yaml
