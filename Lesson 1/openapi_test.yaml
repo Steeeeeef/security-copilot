@@ -1,18 +1,18 @@
 openapi: 3.0.0
 
 info:
-    title: LOLbin-manifest
-    description: LOLbin request Certutil info
+    title: httpbin-manifest
+    description: httpbin ip requester info
     version: "1.0.0"
 
 servers:
-    - url: https://lolbas-project.github.io/lolbas/Binaries/
+    - url: https://httpbin.org/
 
 paths:
-    /Certutil:
+    /ip:
         get: 
-            operationId: LOLbin test
-            summary: Return the Certutil.exe information based on the incoming request.
+            operationId: httpbin test
+            summary: Return the ip requester information based on the incoming request.
             responses:
                 200:
                     description: Successful authentication.
