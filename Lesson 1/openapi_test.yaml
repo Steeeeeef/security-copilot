@@ -1,8 +1,8 @@
 openapi: 3.0.0
 
 info:
-    title: httpbin-manifest
-    description: httpbin ip requester info
+    title: lesson1-manifest
+    description: Lesson 1 - Request basic headers information.
     version: "1.0.0"
 
 servers:
@@ -11,8 +11,8 @@ servers:
 paths:
     /headers:
         get: 
-            operationId: httpbintest
-            summary: Return the ip requester information based on the incoming request.
+            operationId: Lesson1
+            summary: Return the HTTP headers from the incoming request.
             responses:
                 200:
                     description: Successful authentication.
