@@ -9,7 +9,7 @@ servers:
     - url: https://httpbin.org/
 
 paths:
-    /ip:
+    /headers:
         get: 
             operationId: httpbintest
             summary: Return the ip requester information based on the incoming request.
