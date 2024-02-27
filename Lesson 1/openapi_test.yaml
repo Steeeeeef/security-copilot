@@ -11,7 +11,7 @@ servers:
 paths:
     /ip:
         get: 
-            operationId: httpbin test
+            operationId: httpbintest
             summary: Return the ip requester information based on the incoming request.
             responses:
                 200:
