@@ -1,7 +1,7 @@
 Descriptor:
-  Name: httpbin
-  DisplayName: httpbin Plugin
-  Description: Collect IP from requester on httpbin.
+  Name: BasicRequest
+  DisplayName: My First Plugin (BasicRequest)
+  Description: Lesson 1 - Plugin for requesting http headers from the incoming request.
 
 SkillGroups:
   - Format: API
